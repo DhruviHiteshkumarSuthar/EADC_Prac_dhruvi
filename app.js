@@ -14,5 +14,5 @@ const port = process.env.PORT || 8000
 app.use(express.static(__dirname + '/dhruvi'));
 
 app.listen(port,function() {
-  console.log("server starting on " + 8000);
+  //console.log("server starting on " + 8000);
 });
